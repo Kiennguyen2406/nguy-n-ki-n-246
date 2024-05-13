@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="ly">
+<input type="number" id="hoa">
+<input type="number" id="sinh">
+<button onclick="diemtrungbinh()">điểm trung bình</button>
+<script >
+    function diemtrungbinh() {
+       let a=document.getElementById("ly").value
+       let b=document.getElementById("hoa").value
+       let c=document.getElementById("sinh").value
+       let x=parseInt(a)
+       let y=parseInt(b)
+       let z=parseInt(c)
+       let d=(x+y+z)/3
+        alert(d)
+    }
+</script>
+</body>
+</html>
